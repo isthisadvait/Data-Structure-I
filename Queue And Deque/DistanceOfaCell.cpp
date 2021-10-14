@@ -1,3 +1,6 @@
+/* 
+ Find the distance of every cell of grid from given cell of  grid {xg,yg} using breadth first search . 
+ */
 #include <bits/stdc++.h>
 using namespace std;
 int mat[100][100];
