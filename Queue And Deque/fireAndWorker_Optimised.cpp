@@ -1,3 +1,14 @@
+/*
+  There is a grid given . Every cell contains the number of population in (I,j)th city.
+   A[i][j] = population at (I,j)th city .You are given coordinates of fire and firestation .There are    
+   infinite workers.Speed of fire and fireworks is same ,can move 1 cell/sec and in all four  
+  direction.
+   Fire is spreading in all direction .
+   Let say fireworker reahes at any cell at time t1 and fire reaches at t2 . If t1<= t2 ,the population of    
+   that city  can be saved ,otherwise not. Here are some cells blocked .Neither the fire neither the    
+   worker can pass through it.The blocked cell contain value -1' 
+   Determine the total population can be saved.
+*/
 #include <bits/stdc++.h>
 using namespace std;
 int mat[100][100];
