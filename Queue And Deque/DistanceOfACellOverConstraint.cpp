@@ -1,3 +1,10 @@
+/*
+  You are given a grid . Return the distance of every cell from given cell over a constraint that there may be some cell with value -1
+  which is blocked and you can't measure through that cell.
+  
+  */
+
+
 #include <bits/stdc++.h>
 using namespace std;
 int mat[100][100];
