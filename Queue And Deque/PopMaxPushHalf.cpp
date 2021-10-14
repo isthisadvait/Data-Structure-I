@@ -1,3 +1,19 @@
+/*Given an array A :  1  8  3    5
+  After every operation you pop the max element and insert half of if it is not zero .
+
+              pop 8 insert 4  => 1,4,3,5
+              pop 5 insert 2  =>1,4,3,2
+  You do this until all element become 0.
+ An element can be popped 63 times at max.
+..You are given Q queries  of opeartion number and you need to print the element which is popped in that operation.
+N=10^6
+A[i]<63*10^6
+Q<=10^6
+*/
+
+
+
+
 #include<bits/stdc++.h>
 using namespace std;
 
